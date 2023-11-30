@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problemáticas de la Ingeniería</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2eded;
+            color: #333;
+            transition: background-color 0.5s ease;
+        }
+
+        header {
+            background-color: #2c3e50;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #34495e;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        .menu-item {
+            display: inline-block;
+            margin-right: 20px;
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        .menu-item:hover {
+            color: #e74c3c;
+        }
+
+        section {
+            padding: 40px 20px;
+            background-color: #fff;
+            margin: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: box-shadow 0.3s ease;
+            text-align: center; /* Centrar el contenido */
+        }
+
+        section:hover {
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .carga-descarga {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            background-color: #ecf0f1;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: box-shadow 0.3s ease;
+        }
+
+        .carga-descarga:hover {
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+        }
+
+        footer {
+            background-color: #2c3e50;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+
+        input[type="file"] {
+            margin-top: 10px;
+            padding: 10px;
+        }
+
+        input[type="submit"] {
+            background-color: #3498db;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 10px;
+            transition: background-color 0.3s ease;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #2980b9;
+        }
+
+        /* Estilos para las imágenes */
+        section img {
+            max-width: 100%; /* Ajusta el tamaño máximo */
+            height: auto;
+            display: block;
+            margin: 0 auto; /* Centra la imagen */
+            margin-top: 20px; /* Añade un poco de espacio arriba de la imagen */
+        }
+
+        section p {
+            max-width: 600px; /* Establecer el ancho máximo del párrafo */
+            margin: 0 auto; /* Centrar el párrafo */
+        }
+
+        form {
+            max-width: 600px;
+            margin: 20px auto;
+            text-align: left;
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        form label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        form input, form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+
+        form input[type="submit"] {
+            background-color: #3498db;
+            color: #fff;
+            cursor: pointer;
+            border: none;
+            border-radius: 4px;
+            padding: 12px 20px;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+
+        form input[type="submit"]:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Problemáticas de la Ingeniería</h1>
+    </header>
+
+    <nav>
+        <a href="#ima" class="menu-item" onclick="cargarContenido('https://url-ima.com')">IMA</a>
+        <a href="#iea" class="menu-item" onclick="cargarContenido('https://url-iea.com')">IEA</a>
+        <a href="#ia" class="menu-item" onclick="cargarContenido('https://url-ia.com')">IA</a>
+        <a href="#Infografías" class="menu-item" onclick="cargarContenido('https://url-Infografías.com')">INFOGRAFÍAS</a>
+    </nav>
+
+    <section id="ima">
+        <h2>Ingeniería Mecánico Administrador</h2>
+        <div id="contenido-ima">
+            <!-- Contenido de Internet se cargará aquí -->
+            <img src="images/mecanico 2.jpg" alt="IMA Image">
+            <h2>Problemática administrativa</h2>
+            <p>Gestionar los recursos humanos, técnicos y financieros, utilizando herramientas de administración y simuladores de gestión, para incrementar la productividad y cumplir con los requerimientos de la calidad</p>
+             <a href="https://www.euroinnova.mx/blog/que-es-un-ingeniero-mecanico-administrador">Click para más información</a>
+        </div>
+    </section>
+
+    <section id="iea">
+        <h2>Ingeniería en Electrónica y Automatización</h2>
+        <div id="contenido-iea">
+            <!-- Contenido de Internet se cargará aquí -->
+            <img src="images/electormnci.jpg" alt="IEA Image">
+            <h2>Problemática en electrónica y automatización</h2>
+            <p>El ingeniero de automatización diseña, prueba, implementa y gestiona operativamente sistemas de automatización industrial. De hecho, la ingeniería de control y automatización utiliza el conocimiento tecnológico de varias disciplinas de la ingeniería. Entre ellos: mecánica, eléctrica, electrotécnica y informática para crear máquinas, sistemas y procesos automatizados.</p>
+             <a href="https://www.euroinnova.mx/blog/ingeniero-electronica-y-automatizacion">Click para más información</a>
+        </div>
+    </section>
+
+    <section id="ia">
+        <h2>Ingeniería en Aeronaútica</h2>
+        <div id="contenido-ia">
+            <!-- Contenido de Internet se cargará aquí -->
+            <img src="images/AERO.jpg" alt="IA Image">
+            <h2>Problemática en aeronaútica</h2>
+            <p> Los problemas son determinar las áreas para las inspecciones, las predicciones experimentales de fatiga, la correlación del diseño con la experiencia y las consideraciones operativas. También debemos resolver dinámicas inesperadas como las condiciones de giro del motor</p>
+            <a href="https://micarrerauniversitaria.com/c-ingenieria/ingenieria-aeronautica/">Click para más información</a>
+        </div>
+    </section>
+
+    <section id="Infografías">
+        <h2>Infografías</h2>
+        <div id="contenido-Infografías">
+            <!-- Contenido de Internet se cargará aquí -->
+            <img src="images/nuevoooooo.jpg" alt="Infografías Image">
+            <p>Esta infografía ilustra de manera visual la resolución de problemas en la ingeniería dada</p>
+        </div>
+    </section>
+
+    <div class="carga-descarga">
+        <h2>Carga y Descarga de Archivos</h2>
+        <p>Seleccione cualquier tipo de archivo para cargar o descargue archivos:</p>
+        <form action="#" method="post" enctype="multipart/form-data">
+            <label for="archivo">Selecciona un archivo:</label>
+            <input type="file" id="archivo" name="archivo" accept="*">
+            <br>
+            <input type="submit" value="Cargar">
+        </form>
+        <br>
+        <input type="submit" value="Descargar">
+    </div>
+
+    <script>
+        function cargarContenido(url) {
+            var iframe = document.createElement('iframe');
+            iframe.src = url;
+            iframe.style.width = '100%';
+            iframe.style.height = '400px'; // Ajusta la altura según tus necesidades
+            document.activeElement.blur(); // Evitar el enfoque en el iframe
+            document.getElementById('contenido-' + url.split('-')[2].toLowerCase()).innerHTML = '';
+            document.getElementById('contenido-' + url.split('-')[2].toLowerCase()).appendChild(iframe);
+        }
+    </script>
+
+    <!-- Agregamos el formulario para futuras noticias -->
+    <form action="#" method="post">
+        <h2>Suscríbete para recibir noticias</h2>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+        <input type="submit" value="Enviar">
+    </form>
+
+    <script>
+        function cargarContenido(url) {
+            // Tu función actual aquí...
+        }
+</body>
+</html>
